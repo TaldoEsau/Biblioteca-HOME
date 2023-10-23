@@ -1,0 +1,97 @@
+body{
+    background-color: #F2E3B6;
+}
+
+.logo{
+    width: 5.50%;
+    height: 5.50%;
+    border-radius: 25px;
+    border-style: dashed;
+}
+
+.perfil{
+    width: 5.50%;
+    height: 5.50%;
+    margin-left: 1240px;
+    margin-top: -80px;
+    border-radius: 50%;
+}
+
+.nome{
+    font-family: cursive;
+    margin-left: 90px;
+    margin-top: -60px;
+}
+
+.lugar{
+    font-family: cursive;
+    font-size: 40px;
+    text-align: center;
+    font-family:monospace;
+    margin-top: 100px;
+    font-size: 70px;
+    text-shadow: 2px 4px 5px #839DC0, 0 0 50px #F2C879;
+    text-decoration: underline;
+    text-transform: uppercase;
+    animation: mover 2s linear infinite;
+}
+
+.cadas{
+    text-align: right;
+    margin-top: -50px;
+    margin-right: 80px;
+    font-size: 40px;
+    cursor: pointer;
+    color: #731717;
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translatey(-20px);
+    }
+    100% {
+        transform: translatey(0);
+    }
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+  }
+
+.moldura {
+    border: 20px solid #731717;
+    padding: 20px;
+    background-color: #F2E3B6;
+    width: 300px;
+    height: 300px; 
+    margin: 0 10px;
+  }
+  
+  .moldura img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  p{
+    font-family: cursive;
+    font-size: 20px;
+    margin-top: 40px;
+  }
+
+  h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-style: italic;
+    font-size: 45px;
+    margin-top: 230px;
+  }
+
+  #p1{
+    text-align: center;
+    font-size: 25px;
+  }
